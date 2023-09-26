@@ -62,7 +62,7 @@ class ModelWrapper:
     querystring_attrs = []
 
     def __init__(self, model_obj=None, model=None, model_cls=None, next_url_name=None,
-                 next_url_attrs=None, querystring_attrs=None, **kwargs):
+                 next_url_attrs=None, querystring_attrs=None, **kwargs):#noqa
 
         self.object = model_obj
         self._raise_if_model_obj_is_wrapped()
