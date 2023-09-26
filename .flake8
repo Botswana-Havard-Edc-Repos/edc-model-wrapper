@@ -1,0 +1,9 @@
+
+[flake8]
+
+exclude = 
+    model_wrapper.py,
+
+
+per-file-ignores =
+    edc_model_wrapper/wrappers/model_wrapper.py:C901
