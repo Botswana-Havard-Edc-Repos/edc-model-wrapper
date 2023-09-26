@@ -1,3 +1,4 @@
+# flake8: noqa
 from django.urls.exceptions import NoReverseMatch
 from urllib import parse
 
